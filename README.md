@@ -1,2 +1,3 @@
 # Lab2Web
-Historia interactiva, desarrollada solo con HTML
+
+Interactive adventure, made only with HTML. Enjoy!

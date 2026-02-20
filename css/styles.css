@@ -1,7 +1,41 @@
 /* CSS HEX */
---apricot-cream: #f4ca7bff;
---dim-grey: #746d75ff;
---baltic-blue: #155c7aff;
---brown-bark: #684127ff;
---pitch-black: #0e0707ff;
+:root {
+  --apricot-cream: #f4ca7bff;
+  --dim-grey: #746d75ff;
+  --baltic-blue: #155c7aff;
+  --brown-bark: #684127ff;
+  --pitch-black: #0e0707ff;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--pitch-black);
+}
+
+h1 {
+  color: var(--baltic-blue);
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5em;
+  margin: 20px;
+}
+
+p {
+  color: var(--brown-bark);
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: square;
+  color: var(--apricot-cream);
+  font-family: 'Arial', sans-serif;
+  font-size: 1.4em;
+  margin: 20px;
+}
+
+a:hover {
+  color: var(--dim-grey);
+  text-decoration: none;
+}
